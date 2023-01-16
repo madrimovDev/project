@@ -8,3 +8,7 @@ const root = createRoot(rootContainer)
 const app = <StrictMode></StrictMode>
 
 root.render(app)
+
+if (import.meta.env.MODE !== 'development') {
+  console.clear()
+}
