@@ -21,6 +21,6 @@ jobs:
             git pull
             pnpm install
             pnpm run build
-            pnpm run preview --host
+            pnpm run serve --listen 4171
 
 ## Parol_x97
