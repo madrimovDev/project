@@ -21,6 +21,6 @@ jobs:
             git pull
             pnpm install
             pnpm run build
-            pnpm run preview
+            pnpm run preview --host
 
 ## Parol_x97
